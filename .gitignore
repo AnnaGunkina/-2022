@@ -17,7 +17,7 @@
 mono_crash.*
 
 # Build results
-[Dd] ebug/
+[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -27,10 +27,10 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb] in/
+[Bb]in/
 [Oo]bj/
 [Ll]og/
-[Ll] ogs/
+[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -38,11 +38,11 @@ bld/
 #wwwroot/
 
 # Visual Studio 2017 auto generated files
-Generated\Files/
+Generated\ Files/
 
 # MSTest test Results
-[Tt] est [Rr]*/
-[Bb] uild[Ll] og.*
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
@@ -128,8 +128,8 @@ $tf/
 *.gpState
 
 # ReSharper is a .NET coding add-in
-**/
-.*[Rr] e[Ss]harper
+_ReSharper*/
+*.[Rr]e[Ss]harper
 *.DotSettings.user
 
 # TeamCity is a build add-in
@@ -143,9 +143,9 @@ _TeamCity*
 !.axoCover/settings.json
 
 # Coverlet is a free, cross platform Code Coverage Tool
-coverage *.json
-coverage *.xml
-coverage *.info
+coverage*.json
+coverage*.xml
+coverage*.info
 
 # Visual Studio code coverage results
 *.coverage
@@ -153,7 +153,7 @@ coverage *.info
 
 # NCrunch
 _NCrunch_*
-.*crunch *.local.xml
+.*crunch*.local.xml
 nCrunchTemp_*
 
 # MightyMoose
@@ -180,7 +180,7 @@ DocProject/Help/html
 publish/
 
 # Publish Web Output
-.*[Pp]ublish.xml
+*.[Pp]ublish.xml
 *.azurePubxml
 # Note: Comment the next line if you want to checkin your web deploy settings,
 # but database connection strings (with potential passwords) will be unencrypted
@@ -197,9 +197,9 @@ PublishScripts/
 # NuGet Symbol Packages
 *.snupkg
 # The packages folder can be ignored because of Package Restore
-**/[Pp]ackages /*
+**/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
-**!/[Pp]ackages/build/
+!**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/[Pp]ackages/repositories.config
 # NuGet v3's project.json files produces more ignorable files
@@ -225,9 +225,9 @@ _pkginfo.txt
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
-.*[Cc] ache
+*.[Cc]ache
 # but keep track of directories ending in .cache
-.?*![Cc]ache/
+!?*.[Cc]ache/
 
 # Others
 ClientBin/
@@ -271,9 +271,9 @@ ServiceFabricBackup/
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
--* [Bb]ackup.rdl
--* [Bb] ackup ([0-9]).rdl
--* [Bb] ackup ([0-9][0-9]).rdl
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
 
 # Microsoft Fakes
 FakesAssemblies/
@@ -378,10 +378,10 @@ FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
 .vscode/*
-!!/settings.json
-!!/tasks.json
-!!/launch.json
-!!/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
